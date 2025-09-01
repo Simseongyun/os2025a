@@ -1,0 +1,20 @@
+리눅스 명력어
+- ls
+- ls 옵션a
+- touch
+- cd 폴더명
+- cd .. (상위폴더)
+- cat  파일명(텍스트파일보기)
+
+git 명령어
+- git init (현재폴더를 (git)관리상태로 변환)
+- git status
+- git add 파일명
+- git add .
+- git config --global user.email "you@개인이메일주소"
+- git config --global user.name "you@ID"
+- git config --list
+- git commit -m"커밋에 남길 메세지"
+- git log 
+- git checkout 해시코드전체 or 7자리
+- git checkout -
