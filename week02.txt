@@ -15,6 +15,6 @@ git 명령어
 - git config --global user.name "you@ID"
 - git config --list
 - git commit -m"커밋에 남길 메세지"
-- git log 
-- git checkout 해시코드전체 or 7자리
-- git checkout -
+- git log (저장된 내용)
+- git checkout 해시코드전체 or 7자리 (시점변환)
+- git checkout - (시점변환)
