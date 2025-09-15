@@ -1,0 +1,5 @@
+깃 명령어
+git commit --amend -m "수정할 커밋메세지" - 최근 커밋 잘못만들었을때 
+git reset --hard HEAD ~(숫자) - 가장 최근에 만든 커밋을 지우는 법 (숫자에 입력하는 수 만큼 커밋취소)
+git fetch
+git pull
