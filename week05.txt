@@ -1,9 +1,15 @@
+Go 명령어
+go mod init 프로젝트폴더명
+go run 파일명.go
+go build 파일명.go
+
 리눅스 명령어
-history | less
+cp 원본파일 복사본파일
 
 깃 명령어
-git commit --amend -m "수정할 커밋메세지" - 최근 커밋 잘못만들었을때 
-git reset --hard HEAD ~(숫자) - 가장 최근에 만든 커밋을 지우는 법 (숫자에 입력하는 수 만큼 커밋취소)
-git fetch
-git pull
-git push -f origin main
+git reset
+git merg 브랜치명 (파일병합)
+
+기타
+.gitignore 파일생성 (*.exe)
+package, import, func, println, printf, {}, ;(x)

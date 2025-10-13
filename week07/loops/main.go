@@ -28,10 +28,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	var pf string
 	if score >= 60 {
-		fmt.Println("Pass")
+		pf = "Pass"
 	} else {
-		fmt.Println("fail")
+		pf = "Fail"
 	}
-	fmt.Println(score)
+	fmt.Println(pf, score)
 }
