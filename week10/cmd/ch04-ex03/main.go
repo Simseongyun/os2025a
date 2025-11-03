@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"keyboard"
 	"log"
+	"week10/pkg/keyboard"
 )
 
 func main() {
@@ -13,6 +13,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	celsius := (fahrenheit - 32) * 5 / 9
-	fmt.Printf("화씨온도 %.2f는 섭씨온도 %.2f, fahrenheit, celsius")
+	var celsius float64
+	celsius = (fahrenheit - 32) * 5 / 9
+	fmt.Printf("화씨온도 %.2f는 섭씨온도 %.2f", fahrenheit, celsius)
 }
