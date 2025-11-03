@@ -5,7 +5,7 @@ import (
 	"log"
 
 	//"week10/pkg/keyboard"
-	"github.com/headfirtgo/keyboard"
+	"github.com/headfirstgo/keyboard"
 )
 
 func main() {
